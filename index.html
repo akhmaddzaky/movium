@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOVIUM</title>
+  <link rel="manifest" href="manifest.json">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-dark bg-primary mb-4">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">MOVIUM</span>
+      <button class="btn btn-warning" id="installBtn" style="display:none">Install Aplikasi</button>
+    </div>
+  </nav>
+  <main class="container">
+    <h2 class="mb-3">Dashboard</h2>
+    <button class="btn btn-success mb-3" onclick="location.href='add.html'">+ Tambah Tontonan</button>
+    <div id="movieList" class="row gy-3"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/db.js"></script>
+</body>
+</html>
